@@ -56,3 +56,67 @@ td, th {
     font-size: 18px;
     color: #00007e;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 10vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#budlight >img {
+    grid-column: 1/2;
+    width: 100%;
+    max-width: 100%;
+}
+#dettol >img {
+    grid-column: 2/3;
+    width: 100%;
+    max-height: 100%;
+}
+#google >img {
+    grid-column: 3/4;
+    width: 100%;
+    max-width: 100%;
+}
+#lg >img {
+    grid-column: 4/5;
+    width: 100%;
+    max-width: 100%;
+}
+#lucozade >img {
+    grid-column: 5/6;
+    width: 100%;
+    max-width: 100%;
+}
+#nationwide >img {
+    grid-column: 6/7;
+    width: 100%;
+    max-width: 100%;
+}
+#paypal >img {
+    grid-column: 7/8;
+    width: 100%;
+    max-width: 100%;
+}
+#pokemon >img {
+    grid-column: 8/9;
+    width: 100%;
+    max-width: 100%;
+}
+#snickers >img {
+    grid-column: 9/10;
+    width: 100%;
+    max-width: 100%;
+}
+#weetabix >img {
+    grid-column: 10/11;
+    width: 100%;
+    max-width: 100%;
+}
