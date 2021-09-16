@@ -5,8 +5,10 @@ h1 {
 }
 
 #logo {
-    width: 10%;
-    float: left;
+    height: 100%;
+    grid-column-start: 1;
+    padding-left: 25%;
+
 }
 
 header {
@@ -19,6 +21,9 @@ header {
 
 body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: lightgrey ;
+    padding: 0px 0px;   
+    margin: 0px 0px;
 }
 
 h1 {
@@ -28,4 +33,90 @@ h1 {
 
 td, th {
     text-align: center;
+}
+
+.fixed {
+    position: fixed;
+    background-color: white;
+    width: 100vw;
+    margin-left: 0px;
+    padding: 0px 0px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    height: 12vh;
+}
+
+#main-body {
+    padding: 100px 20px;
+}
+
+#title {
+    grid-column-start: 2;
+    font-size: 18px;
+    color: #00007e;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 1fr;
+    width: 100%;
+    height: 10vw;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+#budlight >img {
+    grid-column: 1/2;
+    width: 100%;
+    max-width: 100%;
+}
+#dettol >img {
+    grid-column: 2/3;
+    width: 100%;
+    max-height: 100%;
+}
+#google >img {
+    grid-column: 3/4;
+    width: 100%;
+    max-width: 100%;
+}
+#lg >img {
+    grid-column: 4/5;
+    width: 100%;
+    max-width: 100%;
+}
+#lucozade >img {
+    grid-column: 5/6;
+    width: 100%;
+    max-width: 100%;
+}
+#nationwide >img {
+    grid-column: 6/7;
+    width: 100%;
+    max-width: 100%;
+}
+#paypal >img {
+    grid-column: 7/8;
+    width: 100%;
+    max-width: 100%;
+}
+#pokemon >img {
+    grid-column: 8/9;
+    width: 100%;
+    max-width: 100%;
+}
+#snickers >img {
+    grid-column: 9/10;
+    width: 100%;
+    max-width: 100%;
+}
+#weetabix >img {
+    grid-column: 10/11;
+    width: 100%;
+    max-width: 100%;
 }
